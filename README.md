@@ -1,7 +1,12 @@
 # Radio_Multimedia_Kel-1
 
 Aplikasi IF ITTS RADIO merupakan aplikasi radio streaming berisi tujuh saluran radio.
-Kode program diambil dari Web Github https://ryankoech.github.io/radio_streamer/ & https://github.com/google/radioreceiver.git
+Kode program diambil dari Web Github https://ryankoech.github.io/radio_streamer/ dengan beberapa referensi, yaitu : 
+https://github.com/popupbits/react-nepali-fm.git
+https://github.com/google/radioreceiver.git
+https://github.com/ardean/jsCast.git
+https://ryankoech.github.io/radio_streamer/
+
 dengan menambahkan fitur next dan previous, sehingga dapat mengganti saluran hanya dengan mengklik tombol next untuk saluran selanjutnya dan previous untuk saluran sebelumnya.
 
 Protokol streaming yang digunakan yaitu : HTTP  
