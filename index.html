@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/icon" href="images/radio-icon.ico" sizes="16x16">
+    <title>Radio Streamer</title>
+</head>
+<body>
+  <header>
+    <div class="header-title">
+      <h1>MUSIC ITTS FM</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="player-container">
+      <div class="live-message">
+        <i class="fa fa-circle"></i>
+        <label class="live-icon">Siaran Langsung</label>
+      </div>
+      <div class="control-container">
+        <audio src="https://icecast2.getstreamhosting.com:8050/stream.mp3" class="audio-player"></audio>
+        <label class="current-channel">Capital FM</label>
+        <button class="previous-button" onclick="playPreviousChannel()">&#8249;</button>
+        <i class="playBtn fa fa-play"></i>
+        <button class="next-button" onclick="playNextChannel()">&#8250;</button>
+        <button class="volume-up-button">Volume Up</button>
+        <button class="volume-down-button">Volume Down</button>
+      </div>
+      
+      <!-- <i class="fa fa-pause"></i> -->
+    </div>
+    <div class="popup-message"></div>
+    <div class="stations-list">
+    </div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
